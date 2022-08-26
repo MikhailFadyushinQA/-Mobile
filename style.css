@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.intro {
+    height: 1080px;
+    position: relative;
+    background: url("sea.png") center no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+}
+
+.photo {
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+
+.photo:hover {
+  border: 3px solid #E0FFFF;
+}
+ 
+.button {
+  position: relative;
+  top: 200px;
+  left:130px;
+}
+
+.line {
+  position: relative;
+  top: 140px;
+  left: 20px;
+  color: #FFF8DC;
+}
+
+h1 {
+    font-size: 20px;
+    color: #FFF8DC;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+p {
+  position: relative;
+  top: 150px;
+  left: 65px;
+  color: #FFF8DC;
+}
+
+
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+  top: 170px;
+  left:20px;
+}
+
+a:link {
+  color: #FF4500;
+}
+
+a:visited {
+  color: #333399;
+}
+
+a:hover {
+  color: #FFF8DC;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #FF4500;
+  width: 90px;
+}
+
+
+
+
