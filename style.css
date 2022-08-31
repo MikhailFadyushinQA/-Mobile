@@ -15,8 +15,8 @@ body {
   box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
   object-fit: cover;
   position: relative;
-  top: 100px;
-  left: 80px;
+  top: 50px;
+  left: 70px;
 }
 
 .photo:hover {
@@ -25,30 +25,30 @@ body {
  
 .button {
   position: relative;
-  top: 200px;
+  top: 130px;
   left:130px;
 }
 
 .line {
-  position: relative;
-  top: 140px;
-  left: 20px;
-  color: #FFF8DC;
+  position: relative;  
+  top: 60px;
+  left: 10px;  
+  color: #ffffff;
 }
 
 h1 {
     font-size: 20px;
-    color: #FFF8DC;
+    color: #ffffff;
     position: relative;
-    top: 50px;
-    left: 100px;
+    top: 30px;
+    left: 85px;
 }
 
 p {
   position: relative;
-  top: 150px;
-  left: 65px;
-  color: #FFF8DC;
+  top: 60px;
+  left: 50px;  
+  color: #ffffff;
 }
 
 
@@ -57,20 +57,20 @@ a {
   text-decoration:none;
   margin-bottom: 1.2em;
   position: relative;
-  top: 170px;
+  top: 80px;
   left:20px;
 }
 
 a:link {
-  color: #FF4500;
+  color: #ffffff;
 }
 
 a:visited {
-  color: #333399;
+  color: #6600ff;
 }
 
 a:hover {
-  color: #FFF8DC;
+  color: #0000cd;
 }
 
 a::after {
@@ -79,7 +79,7 @@ a::after {
   left: 0;
   right: 0;
   transform: translateY(1.5em);
-  border-bottom: 1px solid #FF4500;
+  border-bottom: 1px solid #ffffff;
   width: 90px;
 }
 
